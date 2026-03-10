@@ -1,0 +1,69 @@
+Source Program: testcase1.txt
+var f, n;
+
+procedure fact;
+var ans1;
+begin
+	ans1 :=n;
+	n := n-1;
+	if n = 0 then f := 1 else f := 0 fi;
+	if n > 0 then call fact else f := f fi;
+	f:=f*ans1;
+end;
+
+begin
+	n:=3;
+	call fact;
+	write f
+end. 
+
+No errors, program is syntactically correct.
+
+ Line	 OP	  L	  M
+    0	JMP	  0	103
+    1	JMP	  0	 16
+    2	INC	  0	  4
+    3	LOD	  1	  4
+    4	STO	  0	  3
+    5	LOD	  1	  4
+    6	LIT	  0	  1
+    7	OPR	  0	  2
+    8	STO	  1	  4
+    9	LOD	  1	  4
+   10	LIT	  0	  0
+   11	OPR	  0	  5
+   12	JPC	  0	 58
+   13	LIT	  0	  1
+   14	STO	  1	  3
+   15	JMP	  0	 64
+   16	LIT	  0	  0
+   17	STO	  1	  3
+   18	LOD	  1	  4
+   19	LIT	  0	  0
+   20	OPR	  0	  9
+   21	JPC	  0	 82
+   22	CAL	  1	 13
+   23	JMP	  0	 88
+   24	LOD	  1	  3
+   25	STO	  1	  3
+   26	LOD	  1	  3
+   27	LOD	  0	  3
+   28	OPR	  0	  3
+   29	STO	  1	  3
+   30	OPR	  0	  0
+   31	INC	  0	  5
+   32	LIT	  0	  3
+   33	STO	  0	  4
+   34	CAL	  0	 13
+   35	LOD	  0	  3
+   36	SYS	  0	  1
+   37	SYS	  0	  3
+
+Symbol Table:
+
+Kind |        Name | Value | Level | Address | Mark
+---------------------------------------------------
+   2 |           f |     0 |     0 |       3 |    1
+   2 |           n |     0 |     0 |       4 |    1
+   3 |        fact |     0 |     0 |      13 |    1
+   2 |        ans1 |     0 |     1 |       3 |    1

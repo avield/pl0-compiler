@@ -1,0 +1,20 @@
+/* Program should output 540 */
+const a = 3;
+var x, y, z;
+procedure add;
+begin
+	x := a + 3;
+	y := x + 3;
+end;
+procedure mult;
+begin
+	call add;
+	z := (x * y) * 10;
+end;
+begin
+	when z = 0 do
+		begin
+			call mult;
+			write z
+		end
+end.

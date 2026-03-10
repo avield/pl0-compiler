@@ -1,0 +1,9 @@
+Source Program: errorin8.txt
+const a = 3;
+var x, y;
+procedure mult
+begin
+	x := y *2;
+end. 
+
+Error: Procedure declarations must end with a ';'.

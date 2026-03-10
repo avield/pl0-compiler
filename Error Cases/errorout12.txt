@@ -1,0 +1,8 @@
+Source Program: errorin15.txt
+const a = 3;
+var x, y;
+begin
+	a := y * 2;
+end. 
+
+Error: Identifier a is not a variable. Assignment to constant or procedure is not allowed.

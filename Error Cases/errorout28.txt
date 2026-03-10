@@ -1,0 +1,1 @@
+Error: number 123456 is too long. Maximum length of integers is 5 digits.

@@ -1,0 +1,1 @@
+Error: Symbol not allowed. % is not in the programming language.

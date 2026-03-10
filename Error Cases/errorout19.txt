@@ -1,0 +1,14 @@
+Source Program: errorin19.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	call mult;
+	if z > 0
+		write z
+end. 
+
+Error: If must be followed by then.

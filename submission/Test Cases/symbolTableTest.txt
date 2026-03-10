@@ -1,0 +1,29 @@
+var x, y, z;
+procedure first;
+	var z, e;
+	begin
+		e := 10;
+		z := 3+e
+	end;
+procedure second;
+	var y, f;
+	begin
+		f := 20;
+		call first;
+		y := 5+z;
+	end;
+procedure third;
+	var x, g;
+	begin
+		g := 30;
+		call second;
+		x := g+y;
+		write x;
+	end;
+begin
+	write x;
+	call third;
+	write x;
+	x:= 1;
+	write x
+end.

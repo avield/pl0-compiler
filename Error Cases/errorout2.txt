@@ -1,0 +1,7 @@
+Source Program: errorin2.txt
+var x, y;
+begin
+	x = y *2;
+end. 
+
+Error: Assignment statements must use := .

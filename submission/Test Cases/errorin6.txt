@@ -1,0 +1,5 @@
+const a = 3;
+var ;
+begin
+	x := y *2;
+end.

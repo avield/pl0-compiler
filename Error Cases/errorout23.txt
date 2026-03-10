@@ -1,0 +1,16 @@
+Source Program: errorin23.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	when z = 0 
+		begin
+			call mult;
+			write z
+		end
+end. 
+
+Error: When must be followed by do.

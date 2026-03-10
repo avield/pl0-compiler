@@ -1,0 +1,8 @@
+Source Program: errorin6.txt
+const a = 3;
+var ;
+begin
+	x := y *2;
+end. 
+
+Error: Identifier expected after var.

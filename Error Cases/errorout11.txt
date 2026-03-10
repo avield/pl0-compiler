@@ -1,0 +1,9 @@
+Source Program: errorin11.txt
+const a = 3;
+var x, x;
+procedure mult;
+begin
+	x := y *2;
+end. 
+
+Error: Identifier x has already been declared.

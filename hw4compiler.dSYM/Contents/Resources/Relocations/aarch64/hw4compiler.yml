@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aviel/Documents/UCF/COP 3402 Systems Software/HW4/hw4compiler'
+relocations:     []
+...

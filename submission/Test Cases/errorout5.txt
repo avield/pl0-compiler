@@ -1,0 +1,8 @@
+Source Program: errorin5.txt
+const  3;
+var x, y;
+begin
+	x := y *2;
+end. 
+
+Error: An identifier must follow a const.

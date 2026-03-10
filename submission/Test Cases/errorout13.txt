@@ -1,0 +1,8 @@
+Source Program: errorin13.txt
+const a = 3;
+var x, y;
+begin
+	x := + * 2;
+end. 
+
+Error: Incorrect symbol after statement. Expressions must contain operands, parentheses, numbers, or symbols.

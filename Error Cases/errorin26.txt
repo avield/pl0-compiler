@@ -1,0 +1,13 @@
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := (x * y + 1;
+end;
+begin
+	when z = 0 do
+		begin
+			call mult;
+			write z
+		end
+end.

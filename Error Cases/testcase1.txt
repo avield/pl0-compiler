@@ -1,0 +1,17 @@
+var f, n;
+
+procedure fact;
+var ans1;
+begin
+	ans1 :=n;
+	n := n-1;
+	if n = 0 then f := 1 else f := 0 fi;
+	if n > 0 then call fact else f := f fi;
+	f:=f*ans1;
+end;
+
+begin
+	n:=3;
+	call fact;
+	write f
+end.

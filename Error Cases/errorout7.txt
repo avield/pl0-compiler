@@ -1,0 +1,9 @@
+Source Program: errorin7.txt
+const a = 3;
+var x, y;
+procedure ;
+begin
+	x := y *2;
+end. 
+
+Error: Procedure declarations must be followed by an identifier.

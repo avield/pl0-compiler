@@ -1,0 +1,8 @@
+Source Program: errorin3.txt
+const a = x;
+var x, y;
+begin
+	x := y *2;
+end. 
+
+Error: A constant variable must be assigned an integer value.

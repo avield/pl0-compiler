@@ -1,0 +1,17 @@
+Source Program: errorin22.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	call mult;
+	if z > 0 then
+		write z
+		else
+		write a
+		fi
+. 
+
+Error: Begin must be followed by end.

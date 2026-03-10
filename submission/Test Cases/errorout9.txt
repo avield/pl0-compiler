@@ -1,0 +1,9 @@
+Source Program: errorin9.txt
+const a = 3;
+var x y;
+procedure mult;
+begin
+	x := y *2;
+end. 
+
+Error: Variable declarations must end with a semicolon ';'.

@@ -1,0 +1,13 @@
+Source Program: errorin18.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	call x;
+	write z
+end. 
+
+Error: Call identifier must be a procedure. 'x' is not a procedure.

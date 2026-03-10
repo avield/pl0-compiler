@@ -1,0 +1,8 @@
+Source Program: errorin15.txt
+const a = 3;
+var x, y;
+begin
+	x y * 2;
+end. 
+
+Error: Assignment operator expected. Assignment statements must use := .

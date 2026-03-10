@@ -1,0 +1,13 @@
+Source Program: errorin17.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	call ;
+	write z
+end. 
+
+Error: Call must be followed by an identifer.

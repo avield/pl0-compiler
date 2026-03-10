@@ -1,0 +1,13 @@
+Source Program: errorin16.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end
+begin
+	call mult;
+	write z
+end. 
+
+Error: procedures must end in a ';'. Procedure mult did not end in a semicolon.

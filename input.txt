@@ -1,0 +1,17 @@
+/* Program multiplies 2*3. Should display 6 as the output when run in the VM */
+const x = 2, y = 3, z = 1;
+var a, b, c;
+procedure mult;
+begin
+	when b > 0 do
+		begin
+			c := c + a;
+			b := b - z;
+		end
+end;
+begin
+	a := x;
+	b := y;
+	call mult;
+	write c
+end.

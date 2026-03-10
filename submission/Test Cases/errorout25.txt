@@ -1,0 +1,16 @@
+Source Program: errorin25.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := mult * y;
+end;
+begin
+	when z = 0 do
+		begin
+			call mult;
+			write z
+		end
+end. 
+
+Error: expression must not contain a procedure identifier. mult is a procedure.

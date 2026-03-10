@@ -1,0 +1,16 @@
+Source Program: errorin21.txt
+const a = 3;
+var x, y, z;
+procedure mult;
+begin
+	z := x * y;
+end;
+begin
+	call mult;
+	if z > 0 then
+		write z
+		else
+		write a
+end. 
+
+Error: Else must be followed by fi.

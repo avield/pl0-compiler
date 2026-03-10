@@ -1,0 +1,7 @@
+Source Program: errorin1.txt
+var x, y;
+begin
+	z := y *2;
+end. 
+
+Error: Undeclared identifier z .
